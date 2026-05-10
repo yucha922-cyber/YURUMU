@@ -117,9 +117,8 @@
 
       <div class="approach-graph" aria-hidden="true">
         <div class="graph-axis-y">
-          <span>通院頻度</span>
-          <span class="graph-axis-tick">高</span>
-          <span class="graph-axis-tick">低</span>
+          <span class="graph-axis-y-label graph-axis-y-label--top">通院頻度<small>（高）</small></span>
+          <span class="graph-axis-y-label graph-axis-y-label--bottom">通院頻度<small>（低）</small></span>
         </div>
         <svg class="graph-svg" viewBox="0 0 1000 260" preserveAspectRatio="none" role="img">
           <defs>
@@ -138,23 +137,23 @@
             <line x1="0" y1="200" x2="1000" y2="200" />
           </g>
           <path class="graph-area"
-                d="M 125,40 C 280,55 320,90 375,110 C 480,150 550,170 625,180 C 740,196 820,205 875,210 L 875,240 L 125,240 Z"
+                d="M 125,50 C 230,55 290,80 375,110 C 470,145 550,175 625,195 C 720,212 800,218 875,222 L 875,240 L 125,240 Z"
                 fill="url(#graphFill)" />
           <path class="graph-line"
-                d="M 125,40 C 280,55 320,90 375,110 C 480,150 550,170 625,180 C 740,196 820,205 875,210"
+                d="M 125,50 C 230,55 290,80 375,110 C 470,145 550,175 625,195 C 720,212 800,218 875,222"
                 fill="none" stroke="url(#graphStroke)" stroke-width="2.5" stroke-linecap="round" />
           <g class="graph-points">
-            <circle cx="125" cy="40"  r="7" />
+            <circle cx="125" cy="50"  r="7" />
             <circle cx="375" cy="110" r="7" />
-            <circle cx="625" cy="180" r="7" />
-            <circle cx="875" cy="210" r="9" class="graph-point--goal" />
+            <circle cx="625" cy="195" r="7" />
+            <circle cx="875" cy="222" r="9" class="graph-point--goal" />
           </g>
         </svg>
         <div class="graph-axis-x">
           <span>1ヶ月目</span>
           <span>2ヶ月目</span>
-          <span>3〜4ヶ月目</span>
-          <span class="graph-goal-label">GRADUATION<small>卒業以降</small></span>
+          <span>3ヶ月目</span>
+          <span class="graph-goal-label">卒業・メンテナンス<small>GRADUATION</small></span>
         </div>
       </div>
 
@@ -214,6 +213,7 @@
         </li>
 
         <li class="approach-step approach-step--goal">
+          <span class="approach-step-badge">GRADUATION<small>卒業</small></span>
           <div class="approach-step-head">
             <span class="approach-step-num">STEP 04</span>
             <span class="approach-step-icon" aria-hidden="true">
