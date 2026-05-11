@@ -30,7 +30,7 @@
 
   // Reveal on scroll
   const targets = document.querySelectorAll(
-    '.section-title, .section-eyebrow, .concept-text, .concept-visual, .service-card, .story-image, .story-text, .voice-card, .faq-item, .contact-form, .contact-lead'
+    '.section-title, .section-eyebrow, .concept-text, .concept-visual, .service-card, .story-image, .story-text, .price-item, .price-footnote, .access-panel'
   );
   targets.forEach((el) => el.classList.add('reveal'));
 
